@@ -1,0 +1,32 @@
+.create-user-contents{
+width: 300px;
+height: 320px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:10px;
+margin-top: 20px;
+margin-left: 40%;
+text-align: center;
+box-shadow: 1px 2px 3px black;
+}
+.create-user-contents input{
+    padding:7px 3px;
+    font-family: Roboto,sans-serif;
+    border:1px solid rgb(193, 192, 192);
+    border-radius: 6px;
+}
+.create-user-contents label{
+    font-family: Roboto,sans-serif;
+}
+.each-label{
+    display: flex;
+    padding:10px;
+    gap:20px;
+    align-items: center;
+}
+
+.create-user-contents button{
+    padding: 7px 20px;
+    font-family: Roboto,sans-serif;
+}
